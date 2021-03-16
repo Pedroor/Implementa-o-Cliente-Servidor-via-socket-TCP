@@ -1,0 +1,11 @@
+1° PARTE:
+	Compilar servidor: gcc server_REQ_REP.c -o server_REQ_REP
+	Compilar cliente: gcc client_REQ_REP.c -o client_REQ_REP
+	Executar servidor: ./server_REQ_REP
+	Executar cliente: ./client_REQ_REP
+
+2° PARTE:
+	Compilar servidor: gcc server_REQ.c -lpthread -o server_REQ
+	Compilar cliente: gcc client_REQ.c -o client_REQ
+	Executar servidor: ./server_REQ
+	Executar cliente: ./client_REQ
